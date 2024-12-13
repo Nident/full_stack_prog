@@ -1,0 +1,105 @@
+<html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+<!-- Button to trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editModal">
+  Редактировать
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="editModalLabel">Редактирование работы "Наружные стены"</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3 row">
+            <label for="periodFrom" class="col-sm-3 col-form-label">Период с:</label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control" id="periodFrom" value="2 нед, Июня" readonly>
+            </div>
+            <div class="col-sm-3 text-center">
+              <i class="fas fa-calendar-alt fa-2x"></i>
+            </div>
+          </div>
+
+          <div class="mb-3 row">
+            <label for="periodTo" class="col-sm-3 col-form-label">по:</label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control" id="periodTo" value="4 нед, Июня" readonly>
+            </div>
+            <div class="col-sm-3 text-center">
+              <i class="fas fa-calendar-alt fa-2x"></i>
+            </div>
+          </div>
+
+          <div class="mb-3 row">
+            <label for="section" class="col-sm-3 col-form-label">Секция:</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" id="section" value="Секция 3" readonly>
+            </div>
+          </div>
+
+          <div class="mb-3 row">
+            <label for="unit" class="col-sm-3 col-form-label">Ед. изм:</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" id="unit" value="м2" readonly>
+            </div>
+          </div>
+
+          <div class="mb-3 row">
+            <label for="volume" class="col-sm-3 col-form-label">Объём:</label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control" id="volume" value="1000">
+            </div>
+            <div class="col-sm-3 text-center">
+              <i class="fas fa-calculator fa-2x"></i>
+            </div>
+          </div>
+
+          <div class="mb-3 row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-9">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="distribution" id="distribution1" value="even" checked>
+                <label class="form-check-label" for="distribution1">
+                  Равномерное
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="distribution" id="distribution2" value="end">
+                <label class="form-check-label" for="distribution2">
+                  Загрузка в конце
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="distribution" id="distribution3" value="bell">
+                <label class="form-check-label" for="distribution3">
+                  Колокол
+                </label>
+              </div>
+            </div>
+          </div>
+
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+        <button type="button" class="btn btn-outline-secondary">Отменить</button>
+        <button type="submit" class="btn btn-outline-primary">Сохранить</button>
+        <button type="submit" class="btn btn-outline-primary">Сохранить и закрыть</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
