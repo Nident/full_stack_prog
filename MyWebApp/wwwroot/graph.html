@@ -1,0 +1,703 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Графики</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+      /* Стили для выделения перетаскиваемой ячейки */
+      .dragging {
+          opacity: 0.5;
+          background-color: #f8d7da;
+      }
+      .droppable {
+          background-color: #d4edda;
+      }
+      .selected {
+        background-color: rgba(0, 255, 0, 0.3); /* Зеленый прозрачный фон */
+        border: 1px solid green; /* Зеленая рамка */
+    }
+.droppable {
+    border: 2px dashed #007bff; /* Indicate droppable area */
+}
+table.table {
+    border-collapse: separate; /* Раздельные границы */
+    border-spacing: 0; /* Без промежутков */
+}
+
+table.table td.selected {
+    background-color: rgba(0, 255, 0, 0.3); /* Зеленый фон */
+    border: 1px solid green !important; /* Зеленая граница */
+    box-sizing: border-box;
+}
+  </style>
+</head>
+<body class="bg-white d-flex flex-column gap-0">
+  <!-- Хедер с кнопками "Логин" и выбора языка -->
+  <header class="bg-light border-bottom">
+      <div class="container d-flex justify-content-between align-items-center py-2">
+          <div class="left-panel d-flex justify-content-between align-items-center gap-3">
+              <div class="logo-icon">
+                  <svg width='40' height='40' viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="40" height="40" fill="#342272"/>
+                  </svg>
+              </div>
+              <div class="header-title">
+                  <h1 class="h5 mb-0">КАСП</h1>
+              </div>
+
+              <div class="left-panel-button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSidebar" role="button">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4 6H20M4 12H20M4 18H20" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasSidebar" aria-labelledby="offcanvasSidebarLabel">
+                <div class="offcanvas-header">
+                  <h5 id="offcanvasSidebarLabel">Sidebar Title</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <p>Content for the sidebar goes here.</p>
+                </div>
+              </div>
+          </div>
+          <div class="header-buttons d-flex">
+              <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="languageButton" data-bs-toggle="dropdown" aria-expanded="false">
+                      RU
+                  </button>
+                  <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#" onclick="changeLanguage('RU')">RU</a></li>
+                      <li><a class="dropdown-item" href="#" onclick="changeLanguage('EN')">EN</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </header>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <!-- Добавление кнопки для сжатых экранов -->
+      <button 
+        class="navbar-toggler" 
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#navbarSupportedContent" 
+        aria-controls="navbarSupportedContent" 
+        aria-expanded="false" 
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0 text-center gap-5">
+          
+          <!-- Главное с выпадающим меню -->
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Главное
+            </a>
+            <ul class="dropdown-menu text-center">
+                <li><a class="dropdown-item" href="#">Создать график</a></li>
+                <li><a class="dropdown-item" href="#">Создать новую версию графика</a></li>
+                <li><a class="dropdown-item" href="#">Очистить</a></li>
+                <li><a class="dropdown-item" href="#">Сохранить и выйти</a></li>
+                <li><a class="dropdown-item" href="#">Вернуться в главное меню</a></li>
+            </ul>
+          </li>
+
+          <!-- График работ с выпадающим меню -->
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Действия
+            </a>
+            <ul class="dropdown-menu text-left">
+              <li><button class="btn dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Добавить раздел</button></li>
+              <li><button class="btn dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Редактировать раздел</button></li>
+              <li><button class="btn dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Удалить раздел</button></li>
+              <hr class="my-3 border-1 border-primary">
+              <li><button class="btn dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" disabled>Добавить пораздел</button></li>
+              <li><button class="btn dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" disabled>Редактировать пораздел</button></li>
+              <li><button class="btn dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" disabled>Удалить пораздел</button></li>
+              <hr class="my-3 border-1 border-primary">
+              <li><button class="btn dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" disabled>Закрыть</button></li>
+            </ul>
+          </li>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered"> <!-- Увеличение ширины модального окна -->
+              <div class="modal-content p-4"> <!-- Внутренний отступ для красивой рамки -->
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="container mt-3 px-4"> <!-- Добавлен отступ по бокам -->
+                  <div class="row mb-3">
+                    <div class="col-6">
+                      <label for="objectSelect" class="form-label"><strong>Объект</strong></label>
+                      <select id="objectSelect" class="form-select">
+                        <option>Многокв</option>
+                        <option selected>Многоквартирный дом ул Есенина 7</option>
+                        <option>Многоквартирный дом ул Станкозаводская 7</option>
+                        <option>Многоквартирный дом ул Есенина 1/1</option>
+                        <option>Многоквартирный дом ул Октябрьская 31 к2</option>
+                        <option>Многоквартирный дом ул Октябрьская 37 к2</option>
+                      </select>
+                    </div>
+                    <div class="col-6">
+                      <label for="objectInfo" class="form-label"><strong>Информация об объекте</strong></label>
+                      <textarea id="objectInfo" class="form-control h-100 overflow-auto" rows="3" readonly></textarea> <!-- Добавлен readonly -->
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <div class="col-6">
+                      <label for="versionSelect" class="form-label"><strong>Версия графика</strong></label>
+                      <select id="versionSelect" class="form-select">
+                        <option class="bg-success text-black">График производства работ №n за xx.xx.xxxx</option>
+                        <option>График производства работ №n за xx.xx.xxxx</option>
+                        <option>График производства работ №n за xx.xx.xxxx</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-secondary">Отмена</button>
+                        <button type="button" class="btn btn-primary">Открыть</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+          <!-- Настройка с выпадающим меню -->
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Настройка
+            </a>
+            <ul class="dropdown-menu text-center">
+                <li><a class="dropdown-item" href="#">Settings 1</a></li>
+                <li><a class="dropdown-item" href="#">Settings 2</a></li>
+                <li><a class="dropdown-item" href="#">Settings 3</a></li>
+            </ul>
+          </li>
+
+          <!-- Вид с выпадающим меню -->
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Вид
+            </a>
+            <ul class="dropdown-menu text-center">
+                <li><a class="dropdown-item" href="#">View 1</a></li>
+                <li><a class="dropdown-item" href="#">View 2</a></li>
+                <li><a class="dropdown-item" href="#">View 3</a></li>
+            </ul>
+          </li>
+
+          <!-- Помощь с выпадающим меню -->
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Помощь
+            </a>
+            <ul class="dropdown-menu text-center">
+                <li><a class="dropdown-item" href="#">Help 1</a></li>
+                <li><a class="dropdown-item" href="#">Help 2</a></li>
+                <li><a class="dropdown-item" href="#">Help 3</a></li>
+            </ul>
+          </li>
+
+          <!-- Disabled пункт -->
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+  <div class="container pt-5 px-5">
+    <div class="mb-4">
+      <span class="fs-4 fw-bold text-dark">График производства работ №n за xx.xx.xxxx</span>
+    </div>
+
+    <div class="d-flex justify-content-end gap-3">
+      <!-- Кнопка для вызова модального окна -->
+      <button class="btn btn-primary px-4 py-2 mt-3" type="button" data-bs-toggle="modal" data-bs-target="#filterModal">Фильтр</button>
+
+      <!-- Модальное окно -->
+      <div class="modal fade" id="filterModal" tabindex="-1" aria-labelledby="filterModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="filterModalLabel">Настройка фильтров</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <!-- Вид периода -->
+                <div class="mb-3">
+                  <label for="periodType" class="form-label">Вид периода:</label>
+                  <select class="form-select" id="periodType">
+                    <option value="month-week">Месяц-неделя</option>
+                    <option value="month-year">Месяц-год</option>
+                  </select>
+                </div>
+
+                <!-- Период с/по -->
+                <div class="mb-3">
+                  <label class="form-label">Период:</label>
+                  <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="startDate" placeholder="Период с">
+                    <span class="input-group-text"><i class="fas fa-calendar-alt"></i></span>
+                  </div>
+                  <div class="input-group">
+                    <input type="text" class="form-control" id="endDate" placeholder="Период по">
+                    <span class="input-group-text"><i class="fas fa-calendar-alt"></i></span>
+                  </div>
+                </div>
+
+                <!-- Секция -->
+                <div class="mb-3">
+                  <label for="section" class="form-label">Секция:</label>
+                  <select class="form-select" id="section">
+                    <option value="">Выберите секцию</option>
+                    <!-- Добавьте опции секции здесь -->
+                  </select>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="reset" class="btn btn-outline-secondary" form="filterForm">Сброс</button>
+              <button type="submit" class="btn btn-primary" form="filterForm">Отобразить</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Кнопка для сохранения -->
+      <button class="btn btn-success px-4 py-2 mt-3">Сохранить</button>
+
+    </div>
+  </div>
+  <div class="container-fluid d-flex justify-content-center align-items-center min-vh-100 p-5">
+    <div class="container border border-dark rounded-3 border-secondary p-3" style="width:40vh; min-height: 80vh">
+        <nav class="nav d-flex flex-column">
+          <a class="nav-link" href="#">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2 6V5C2 3.34315 3.34315 2 5 2H9.6C10.9255 2 12 3.07452 12 4.4C12 5.28366 12.7163 6 13.6 6H19C20.6569 6 22 7.34315 22 9V19C22 20.6569 20.6569 22 19 22H5C3.34315 22 2 20.6569 2 19V6Z" stroke="black" stroke-width="2" stroke-linejoin="round"/>
+              <path d="M2 14C2 12.3431 3.34315 11 5 11H19C20.6569 11 22 12.3431 22 14V19C22 20.6569 20.6569 22 19 22H5C3.34315 22 2 20.6569 2 19V14Z" stroke="black" stroke-width="2"/>
+            </svg>
+            <span class="fw-bold text-dark ms-2">1 МОНОЛИТНЫЕ РАБОТЫ</span>
+          </a>
+            <a class="nav-link ms-3" href="#">
+                <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 17V7C21 5.89543 20.1046 5 19 5H12.2361C11.4785 5 10.786 4.572 10.4472 3.89443L9.5528 2.10557C9.214 1.428 8.52148 1 7.76393 1H3C1.89543 1 1 1.89543 1 3V17C1 18.1046 1.89543 19 3 19H19C20.1046 19 21 18.1046 21 17Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="fw-bold text-dark">1.1 Стены и перекрытия</span>
+            </a>
+            <a class="nav-link active" href="#">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2 6V5C2 3.34315 3.34315 2 5 2H9.6C10.9255 2 12 3.07452 12 4.4C12 5.28366 12.7163 6 13.6 6H19C20.6569 6 22 7.34315 22 9V19C22 20.6569 20.6569 22 19 22H5C3.34315 22 2 20.6569 2 19V6Z" stroke="black" stroke-width="2" stroke-linejoin="round"/>
+                    <path d="M2 14C2 12.3431 3.34315 11 5 11H19C20.6569 11 22 12.3431 22 14V19C22 20.6569 20.6569 22 19 22H5C3.34315 22 2 20.6569 2 19V14Z" stroke="black" stroke-width="2"/>
+                </svg>
+                <span class="fw-bold text-dark">2 КИРПИЧНАЯ КЛАДКА</span>
+            </a>
+            <a class="nav-link ms-3" href="#">
+                <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 17V7C21 5.89543 20.1046 5 19 5H12.2361C11.4785 5 10.786 4.572 10.4472 3.89443L9.5528 2.10557C9.214 1.428 8.52148 1 7.76393 1H3C1.89543 1 1 1.89543 1 3V17C1 18.1046 1.89543 19 3 19H19C20.1046 19 21 18.1046 21 17Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="fw-bold text-dark">2.1 Наружные стены</span>
+            </a>
+            <a class="nav-link ms-3" href="#">
+                <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 17V7C21 5.89543 20.1046 5 19 5H12.2361C11.4785 5 10.786 4.572 10.4472 3.89443L9.5528 2.10557C9.214 1.428 8.52148 1 7.76393 1H3C1.89543 1 1 1.89543 1 3V17C1 18.1046 1.89543 19 3 19H19C20.1046 19 21 18.1046 21 17Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="fw-bold text-dark">2.2 Перегородки</span>
+            </a>
+            <a class="nav-link" href="#">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2 6V5C2 3.34315 3.34315 2 5 2H9.6C10.9255 2 12 3.07452 12 4.4C12 5.28366 12.7163 6 13.6 6H19C20.6569 6 22 7.34315 22 9V19C22 20.6569 20.6569 22 19 22H5C3.34315 22 2 20.6569 2 19V6Z" stroke="black" stroke-width="2" stroke-linejoin="round"/>
+                    <path d="M2 14C2 12.3431 3.34315 11 5 11H19C20.6569 11 22 12.3431 22 14V19C22 20.6569 20.6569 22 19 22H5C3.34315 22 2 20.6569 2 19V14Z" stroke="black" stroke-width="2"/>
+                </svg>
+                <span class="fw-bold text-dark">3 ВНУТРЕННЯЯ ОТДЕЛКА</span>
+            </a>
+            <a class="nav-link ms-3" href="#">
+                <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 17V7C21 5.89543 20.1046 5 19 5H12.2361C11.4785 5 10.786 4.572 10.4472 3.89443L9.5528 2.10557C9.214 1.428 8.52148 1 7.76393 1H3C1.89543 1 1 1.89543 1 3V17C1 18.1046 1.89543 19 3 19H19C20.1046 19 21 18.1046 21 17Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="fw-bold text-dark">3.1 Устройство стяжки на пол</span>
+            </a>
+            <a class="nav-link" href="#">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2 6V5C2 3.34315 3.34315 2 5 2H9.6C10.9255 2 12 3.07452 12 4.4C12 5.28366 12.7163 6 13.6 6H19C20.6569 6 22 7.34315 22 9V19C22 20.6569 20.6569 22 19 22H5C3.34315 22 2 20.6569 2 19V6Z" stroke="black" stroke-width="2" stroke-linejoin="round"/>
+                    <path d="M2 14C2 12.3431 3.34315 11 5 11H19C20.6569 11 22 12.3431 22 14V19C22 20.6569 20.6569 22 19 22H5C3.34315 22 2 20.6569 2 19V14Z" stroke="black" stroke-width="2"/>
+                </svg>
+                <span class="fw-bold text-dark">4 ВЕНТИЛЯЦИЯ</span>
+            </a>
+            <a class="nav-link ms-3" href="#">
+                <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 17V7C21 5.89543 20.1046 5 19 5H12.2361C11.4785 5 10.786 4.572 10.4472 3.89443L9.5528 2.10557C9.214 1.428 8.52148 1 7.76393 1H3C1.89543 1 1 1.89543 1 3V17C1 18.1046 1.89543 19 3 19H19C20.1046 19 21 18.1046 21 17Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="fw-bold text-dark">4.1 Стены и перекрытия</span>
+            </a>
+            <a class="nav-link ms-3" href="#">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 4V20C4 21.1046 4.89543 22 6 22H18C19.1046 22 20 21.1046 20 20V8.34162C20 7.8034 19.7831 7.28789 19.3982 6.91161L14.9579 2.56999C14.5842 2.20459 14.0824 2 13.5597 2H6C4.89543 2 4 2.89543 4 4Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M9 13H15" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M9 17H12" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M14 2V6C14 7.10457 14.8954 8 16 8H20" stroke="black" stroke-width="2" stroke-linejoin="round"/>
+                </svg>    
+                <span class="fw-bold text-dark">4.11 Монтаж асбестовых</span>
+            </a>
+        </nav>
+        
+        <div class="d-flex flex-row justify-content-end mt-3 gap-0">
+          <div class="d-flex flex-column">
+            <button class="btn btn-secondar btn-sm">
+              <svg width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.00057 14.9732H19.0006C19.1828 14.9727 19.3615 14.9224 19.5173 14.8279C19.673 14.7333 19.8001 14.5981 19.8848 14.4367C19.9694 14.2753 20.0085 14.0939 19.9977 13.912C19.9869 13.73 19.9267 13.5545 19.8236 13.4042L10.8236 0.40425C10.4506 -0.13475 9.55257 -0.13475 9.17857 0.40425L0.178574 13.4042C0.0743986 13.5542 0.0133079 13.7298 0.00193892 13.912C-0.00943004 14.0943 0.0293576 14.2761 0.114088 14.4379C0.198818 14.5996 0.32625 14.735 0.482538 14.8294C0.638826 14.9238 0.817994 14.9735 1.00057 14.9732ZM10.0006 2.73025L17.0926 12.9732H2.90857L10.0006 2.73025Z" fill="black"/>
+              </svg>                
+            </button>
+            <button class="btn btn-secondar btn-sm">
+              <svg width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18.9988 1.71661e-05H0.998846C0.816605 0.000588417 0.63797 0.0508518 0.48217 0.145395C0.32637 0.239939 0.199305 0.375182 0.114651 0.53657C0.0299969 0.697957 -0.00903893 0.879377 0.00174332 1.0613C0.0125256 1.24322 0.0727196 1.41876 0.175846 1.56902L9.17585 14.569C9.54885 15.108 10.4468 15.108 10.8208 14.569L19.8208 1.56902C19.925 1.41907 19.9861 1.24345 19.9975 1.06122C20.0089 0.878996 19.9701 0.697139 19.8853 0.53541C19.8006 0.373681 19.6732 0.238263 19.5169 0.143873C19.3606 0.0494833 19.1814 -0.000270844 18.9988 1.71661e-05ZM9.99885 12.243L2.90685 2.00002H17.0908L9.99885 12.243Z" fill="black"/>
+              </svg>                
+            </button>
+          </div>
+
+          <div class="d-flex flex-column">
+            <button class="btn btn-secondar btn-sm">
+              <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_39_3585)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M17.8125 2.375C17.8125 2.06006 17.6874 1.75801 17.4647 1.53531C17.242 1.31261 16.9399 1.1875 16.625 1.1875H2.375C2.06006 1.1875 1.75801 1.31261 1.53531 1.53531C1.31261 1.75801 1.1875 2.06006 1.1875 2.375V16.625C1.1875 16.9399 1.31261 17.242 1.53531 17.4647C1.75801 17.6874 2.06006 17.8125 2.375 17.8125H16.625C16.9399 17.8125 17.242 17.6874 17.4647 17.4647C17.6874 17.242 17.8125 16.9399 17.8125 16.625V2.375ZM0 2.375C0 1.74511 0.250223 1.14102 0.695621 0.695621C1.14102 0.250223 1.74511 0 2.375 0L16.625 0C17.2549 0 17.859 0.250223 18.3044 0.695621C18.7498 1.14102 19 1.74511 19 2.375V16.625C19 17.2549 18.7498 17.859 18.3044 18.3044C17.859 18.7498 17.2549 19 16.625 19H2.375C1.74511 19 1.14102 18.7498 0.695621 18.3044C0.250223 17.859 0 17.2549 0 16.625V2.375ZM10.0938 13.6562C10.0938 13.8137 10.0312 13.9647 9.91985 14.0761C9.8085 14.1874 9.65747 14.25 9.5 14.25C9.34253 14.25 9.19151 14.1874 9.08016 14.0761C8.96881 13.9647 8.90625 13.8137 8.90625 13.6562V6.77706L6.35787 9.32662C6.24638 9.43812 6.09517 9.50075 5.9375 9.50075C5.77983 9.50075 5.62862 9.43812 5.51713 9.32662C5.40563 9.21513 5.343 9.06392 5.343 8.90625C5.343 8.74858 5.40563 8.59737 5.51713 8.48588L9.07963 4.92338C9.13478 4.86808 9.2003 4.82421 9.27244 4.79428C9.34457 4.76435 9.4219 4.74894 9.5 4.74894C9.5781 4.74894 9.65543 4.76435 9.72756 4.79428C9.7997 4.82421 9.86522 4.86808 9.92037 4.92338L13.4829 8.48588C13.5944 8.59737 13.657 8.74858 13.657 8.90625C13.657 9.06392 13.5944 9.21513 13.4829 9.32662C13.3714 9.43812 13.2202 9.50075 13.0625 9.50075C12.9048 9.50075 12.7536 9.43812 12.6421 9.32662L10.0938 6.77706V13.6562Z" fill="black"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_39_3585">
+                <rect width="19" height="19" fill="white"/>
+                </clipPath>
+                </defs>
+              </svg>                               
+            </button>
+            <button class="btn btn-secondar btn-sm">
+              <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_39_3587)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M17.8125 2.375C17.8125 2.06006 17.6874 1.75801 17.4647 1.53531C17.242 1.31261 16.9399 1.1875 16.625 1.1875H2.375C2.06006 1.1875 1.75801 1.31261 1.53531 1.53531C1.31261 1.75801 1.1875 2.06006 1.1875 2.375V16.625C1.1875 16.9399 1.31261 17.242 1.53531 17.4647C1.75801 17.6874 2.06006 17.8125 2.375 17.8125H16.625C16.9399 17.8125 17.242 17.6874 17.4647 17.4647C17.6874 17.242 17.8125 16.9399 17.8125 16.625V2.375ZM0 2.375C0 1.74511 0.250223 1.14102 0.695621 0.695621C1.14102 0.250223 1.74511 0 2.375 0L16.625 0C17.2549 0 17.859 0.250223 18.3044 0.695621C18.7498 1.14102 19 1.74511 19 2.375V16.625C19 17.2549 18.7498 17.859 18.3044 18.3044C17.859 18.7498 17.2549 19 16.625 19H2.375C1.74511 19 1.14102 18.7498 0.695621 18.3044C0.250223 17.859 0 17.2549 0 16.625V2.375ZM10.0938 5.34375C10.0938 5.18628 10.0312 5.03525 9.91985 4.92391C9.8085 4.81256 9.65747 4.75 9.5 4.75C9.34253 4.75 9.19151 4.81256 9.08016 4.92391C8.96881 5.03525 8.90625 5.18628 8.90625 5.34375V12.2229L6.35787 9.67338C6.24638 9.56188 6.09517 9.49925 5.9375 9.49925C5.77983 9.49925 5.62862 9.56188 5.51713 9.67338C5.40563 9.78487 5.343 9.93608 5.343 10.0938C5.343 10.2514 5.40563 10.4026 5.51713 10.5141L9.07963 14.0766C9.13478 14.1319 9.2003 14.1758 9.27244 14.2057C9.34457 14.2357 9.4219 14.2511 9.5 14.2511C9.5781 14.2511 9.65543 14.2357 9.72756 14.2057C9.7997 14.1758 9.86522 14.1319 9.92037 14.0766L13.4829 10.5141C13.5944 10.4026 13.657 10.2514 13.657 10.0938C13.657 9.93608 13.5944 9.78487 13.4829 9.67338C13.3714 9.56188 13.2202 9.49925 13.0625 9.49925C12.9048 9.49925 12.7536 9.56188 12.6421 9.67338L10.0938 12.2229V5.34375Z" fill="black"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_39_3587">
+                <rect width="19" height="19" fill="white"/>
+                </clipPath>
+                </defs>
+              </svg>                 
+            </button>
+          </div>
+        </div>
+    </div>
+    <div class="container mt-5" style="width:110vh; min-height: 80vh">
+      <div class="table-responsive">
+          <table class="table table-bordered table-striped text-center">
+              <thead class="table-light">
+                  <tr>
+                      <th>№ п/п</th>
+                      <th>Наименование работы</th>
+                      <th>Ед. изм.</th>
+                      <th>I Июня</th>
+                      <th>II Июня</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td draggable="true" ondragstart="drag(event)" ondragend="endDrag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">1</td>
+                      <td draggable="true" ondragstart="drag(event)" ondragend="endDrag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">Наружные стены</td>
+                      <td draggable="true" ondragstart="drag(event)" ondragend="endDrag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">м2</td>
+                      <td draggable="true" ondragstart="drag(event)" ondragend="endDrag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">2472.9</td>
+                      <td draggable="true" ondragstart="drag(event)" ondragend="endDrag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">2472.9</td>
+                  </tr>
+                  <tr>
+                      <td draggable="true" ondragstart="drag(event)" ondragend="endDrag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">2</td>
+                      <td draggable="true" ondragstart="drag(event)" ondragend="endDrag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">Перегородки</td>
+                      <td draggable="true" ondragstart="drag(event)" ondragend="endDrag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">м2</td>
+                      <td draggable="true" ondragstart="drag(event)" ondragend="endDrag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">2122.2</td>
+                      <td draggable="true" ondragstart="drag(event)" ondragend="endDrag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">2122.2</td>
+                  </tr>
+                  <tr>
+                      <td draggable="true" ondragstart="drag(event)" ondragend="endDrag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">3</td>
+                      <td draggable="true" ondragstart="drag(event)" ondragend="endDrag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">Потолки</td>
+                      <td draggable="true" ondragstart="drag(event)" ondragend="endDrag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">м2</td>
+                      <td draggable="true" ondragstart="drag(event)" ondragend="endDrag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">1500.0</td>
+                      <td draggable="true" ondragstart="drag(event)" ondragend="endDrag(event)" ondrop="drop(event)" ondragover="allowDrop(event)">1500.0</td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
+  </div>
+
+  <!-- MODAL FOR RIGHT CLICK -->
+  <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="editModalLabel">Редактирование работы "Наружные стены"</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3 row">
+              <label for="periodFrom" class="col-sm-3 col-form-label">Период с:</label>
+              <div class="col-sm-6">
+                <input type="text" class="form-control" id="periodFrom" value="2 нед, Июня" readonly>
+              </div>
+              <div class="col-sm-3 text-center">
+                <i class="fas fa-calendar-alt fa-2x"></i>
+              </div>
+            </div>
+  
+            <div class="mb-3 row">
+              <label for="periodTo" class="col-sm-3 col-form-label">по:</label>
+              <div class="col-sm-6">
+                <input type="text" class="form-control" id="periodTo" value="4 нед, Июня" readonly>
+              </div>
+              <div class="col-sm-3 text-center">
+                <i class="fas fa-calendar-alt fa-2x"></i>
+              </div>
+            </div>
+  
+            <div class="mb-3 row">
+              <label for="section" class="col-sm-3 col-form-label">Секция:</label>
+              <div class="col-sm-9">
+                <input type="text" class="form-control" id="section" value="Секция 3" readonly>
+              </div>
+            </div>
+  
+            <div class="mb-3 row">
+              <label for="unit" class="col-sm-3 col-form-label">Ед. изм:</label>
+              <div class="col-sm-9">
+                <input type="text" class="form-control" id="unit" value="м2" readonly>
+              </div>
+            </div>
+  
+            <div class="mb-3 row">
+              <label for="volume" class="col-sm-3 col-form-label">Объём:</label>
+              <div class="col-sm-6">
+                <input type="text" class="form-control" id="volume" value="1000">
+              </div>
+              <div class="col-sm-3 text-center">
+                <i class="fas fa-calculator fa-2x"></i>
+              </div>
+            </div>
+  
+            <div class="mb-3 row">
+              <div class="col-sm-3"></div>
+              <div class="col-sm-9">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="distribution" id="distribution1" value="even" checked>
+                  <label class="form-check-label" for="distribution1">
+                    Равномерное
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="distribution" id="distribution2" value="end">
+                  <label class="form-check-label" for="distribution2">
+                    Загрузка в конце
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="distribution" id="distribution3" value="bell">
+                  <label class="form-check-label" for="distribution3">
+                    Колокол
+                  </label>
+                </div>
+              </div>
+            </div>
+  
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+          <button type="button" class="btn btn-outline-secondary">Отменить</button>
+          <button type="submit" class="btn btn-outline-primary">Сохранить</button>
+          <button type="submit" class="btn btn-outline-primary">Сохранить и закрыть</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+  let draggedElement = null;
+let selectedCells = new Set(); // Храним выделенные ячейки
+let isSelecting = false; // Флаг режима выделения
+
+// Функция для начала перетаскивания
+function drag(event) {
+    if (event.shiftKey || event.metaKey) {
+        return; // Отключаем drag-and-drop при зажатом Shift или Command
+    }
+    draggedElement = event.target;
+    event.target.classList.add('dragging');
+    event.dataTransfer.setData("text/plain", event.target.innerHTML);
+}
+
+// Функция для обработки перетаскивания
+function allowDrop(event) {
+    event.preventDefault();
+    if (!event.target.classList.contains('dragging')) {
+        event.target.classList.add('droppable');
+    }
+}
+
+// Функция для завершения перетаскивания
+function drop(event) {
+    event.preventDefault();
+    if (draggedElement) {
+        const draggedContent = event.dataTransfer.getData("text/plain");
+        if (selectedCells.size > 0) {
+            selectedCells.forEach(cell => (cell.innerHTML = draggedContent));
+        } else {
+            event.target.innerHTML = draggedContent;
+        }
+    }
+    clearSelection(); // Очистить выделение после drop
+}
+
+// Функция для завершения выделения
+function endDrag(event) {
+    event.target.classList.remove('dragging');
+}
+
+// Очистка выделения
+function clearSelection() {
+    selectedCells.forEach(cell => cell.classList.remove('selected'));
+    selectedCells.clear();
+}
+
+// Обработчики событий для ячеек
+document.querySelectorAll('td').forEach(cell => {
+    // Нажатие мыши
+    cell.addEventListener('mousedown', function (event) {
+        if (event.shiftKey || event.metaKey) {
+            isSelecting = true; // Включаем режим выделения
+            if (!selectedCells.has(cell)) {
+                cell.classList.add('selected');
+                selectedCells.add(cell);
+            }
+            event.preventDefault(); // Отключаем стандартное поведение
+        }
+    });
+
+    // Движение мыши
+    cell.addEventListener('mousemove', function (event) {
+        if (isSelecting) {
+            if (!selectedCells.has(cell)) {
+                cell.classList.add('selected');
+                selectedCells.add(cell);
+            }
+        }
+    });
+
+    // Завершение выделения
+    cell.addEventListener('mouseup', function () {
+        isSelecting = false; // Отключаем режим выделения
+    });
+
+    // Отключение drag-and-drop при Shift или Command
+    cell.addEventListener('dragstart', function (event) {
+        if (event.shiftKey || event.metaKey) {
+            event.preventDefault();
+        }
+    });
+});
+
+// Сброс выделения при клике за пределами таблицы
+document.addEventListener('click', function (event) {
+    const table = document.querySelector('table'); // Укажите вашу таблицу
+    if (!table.contains(event.target)) {
+        clearSelection();
+    }
+});
+
+// Остановка выделения при отпускании мыши за пределами таблицы
+document.addEventListener('mouseup', function () {
+    isSelecting = false;
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Получаем все ячейки таблицы
+    const cells = document.querySelectorAll('td');
+
+    // Обработчик правого клика
+    cells.forEach(cell => {
+        // Обработчик двойного клика
+        cell.addEventListener('dblclick', function() {
+            // Открываем модальное окно
+            var myModal = new bootstrap.Modal(document.getElementById('filterModal'));
+            myModal.show();
+        });
+    });
+});
+document.querySelectorAll('td').forEach(cell => {
+        cell.addEventListener('contextmenu', function (event) {
+            if (selectedCells.size > 0) {
+                event.preventDefault(); // Отключаем стандартное меню
+                const myModal = new bootstrap.Modal(document.getElementById('editModal'));
+                myModal.show();
+            }
+        });
+    });
+</script>
+
+
+
+    <div class="container w-25 p-3 border border-dark rounded-3 border border-secondary" 
+          style="width:40vh; min-height: 80vh">
+      <form>
+          <div class="mb-2">
+              <label for="unit" class="form-label">Ед. изм.</label>
+              <select class="form-select" id="unit">
+                  <option selected></option>
+                  <!-- Add options as needed -->
+              </select>
+          </div>
+          <div class="mb-2">
+              <label for="remaining-work" class="form-label">Ост. объём работ</label>
+              <input type="text" class="form-control" id="remaining-work">
+          </div>
+          <div class="mb-2">
+              <label for="production-rate" class="form-label">Норма выработки чел./нед:</label>
+              <input type="text" class="form-control" id="production-rate">
+          </div>
+          <div class="mb-2">
+              <label for="fact-people" class="form-label">Факт людей</label>
+              <input type="text" class="form-control" id="fact-people">
+          </div>
+          <div class="mb-2">
+              <label for="additional-equipment" class="form-label">Доп. потребность в технике</label>
+              <textarea class="form-control" id="additional-equipment" rows="3"></textarea>
+          </div>
+          <div class="mb-2">
+              <label for="notes" class="form-label">Примечание</label>
+              <textarea class="form-control" id="notes" rows="3"></textarea>
+          </div>
+          <div class="d-flex justify-content-between">
+              <button type="button" class="btn btn-outline-secondary w-50 me-1">Отмена</button>
+              <button type="submit" class="btn btn-outline-primary w-50 ms-1">Сохранить</button>
+          </div>
+      </form>
+    </div>
+  </div>
+  <script>
+      // Функция для смены языка
+      function changeLanguage(lang) {
+          document.getElementById('languageButton').innerText = lang;
+      }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

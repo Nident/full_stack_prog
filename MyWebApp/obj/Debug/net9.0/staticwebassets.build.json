@@ -1,0 +1,5122 @@
+{
+  "Version": 1,
+  "Hash": "eSy7+ushu/jeAxA/+zNbXM5ZuS0viaqpJoBdEK3Sbsw=",
+  "Source": "MyWebApp",
+  "BasePath": "_content/MyWebApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MyWebApp/wwwroot",
+      "Source": "MyWebApp",
+      "ContentRoot": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/",
+      "BasePath": "_content/MyWebApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/3tt14gkg9a-zaolaoovpt.gz",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "svg_icons/Vector#[.{fingerprint=zaolaoovpt}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/Vector.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "vx1p15c35b",
+      "Integrity": "EyvBhR2UokIkPM/yO2nOgrGrXjD1yplQiiQVZFWWSbw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/Vector.svg"
+    },
+    {
+      "Identity": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/5ojllldle9-ekwr936y3m.gz",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "svg_icons/Arrow Down Square#[.{fingerprint=ekwr936y3m}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/Arrow Down Square.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "6jmxc2awa8",
+      "Integrity": "UmQJEHvjKGJwobIqAqsTe7viE3+C7UhLTeNkmEpf7TU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/Arrow Down Square.svg"
+    },
+    {
+      "Identity": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/8yaz9x2l9i-plwb6vgx0y.gz",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "svg_icons/Rectangle 17#[.{fingerprint=plwb6vgx0y}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/Rectangle 17.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "wc4j7ot2ng",
+      "Integrity": "0LOoWAIwhy5b+KHCoG5ezD3713582EioXHRkoIbhXoY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/Rectangle 17.svg"
+    },
+    {
+      "Identity": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/axwc4uylrn-yhpmxr7431.gz",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "svg_icons/tabler-icon-menu-2#[.{fingerprint=yhpmxr7431}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/tabler-icon-menu-2.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "5ovypmg1o4",
+      "Integrity": "KxpFu+T10ym86fkTnkNVxyHwlKQwqeqFXEQRnM139SQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/tabler-icon-menu-2.svg"
+    },
+    {
+      "Identity": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/b2kwhlwsro-735b6sl0yx.gz",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "svg_icons/arrowTriangleUp#[.{fingerprint=735b6sl0yx}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/arrowTriangleUp.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "24vq08ikd7",
+      "Integrity": "AmAN2MuirnUhxtTf92MJJgJGdKY0uECo5QjyxD/VHss=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/arrowTriangleUp.svg"
+    },
+    {
+      "Identity": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/ck9avh7rzw-k4wf9ph5bb.gz",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "svg_icons/Arrow Up Square#[.{fingerprint=k4wf9ph5bb}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/Arrow Up Square.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "4ywltq9t70",
+      "Integrity": "DE8XXblwLX8bDJJ1hamWNMr5Vrs5W0xGpZKXXqZAvQA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/Arrow Up Square.svg"
+    },
+    {
+      "Identity": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/dfmn4gqljx-6zhuahcjs1.gz",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "register#[.{fingerprint=6zhuahcjs1}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/register.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "84llf8lits",
+      "Integrity": "KL2+hdG+ZUwIyppmDRUR8hP2uzkDyO1PXheX0m7ekog=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/register.html"
+    },
+    {
+      "Identity": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/dj2axz96j2-ijrphh6vpg.gz",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "svg_icons/File#[.{fingerprint=ijrphh6vpg}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/File.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "0d65jktx7l",
+      "Integrity": "dIJFpmDuQulTCWp2HHEopWGhcoajFOZGNgbtbZ/QB08=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/File.svg"
+    },
+    {
+      "Identity": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/llqh0zuap8-yk2yrz5ykn.gz",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "svg_icons/pic_build#[.{fingerprint=yk2yrz5ykn}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/pic_build.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "nux371pht2",
+      "Integrity": "H6ngtvGtnD5sFtHxKYzHQq+yAmcY95oaJ6GCqJFU+NA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/pic_build.svg"
+    },
+    {
+      "Identity": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/lusaequn88-ehma6wei40.gz",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "graph#[.{fingerprint=ehma6wei40}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/graph.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "9v6udjqafa",
+      "Integrity": "Rfe5o7WX+WkMA9+19zN/TjR+FX+RV1h95Uu2qbzcQWU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/graph.html"
+    },
+    {
+      "Identity": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/qzjphe11ql-toij4vfgzn.gz",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "index#[.{fingerprint=toij4vfgzn}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "e7nlp0d9y4",
+      "Integrity": "ujEG5KpGGpdVGnattkAVKiozN7TuuRd1NisY9Vi1Wao=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/rdvhly1u7c-rc81nee2my.gz",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "svg_icons/arrowTriangleDown#[.{fingerprint=rc81nee2my}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/arrowTriangleDown.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "8jlvie9o2x",
+      "Integrity": "xFiM+milORht7d0lEoJXd/y8pdJvp/g8TB7hFhdKHls=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/arrowTriangleDown.svg"
+    },
+    {
+      "Identity": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/rk7f1fjhxp-zn7i0xw91f.gz",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "model#[.{fingerprint=zn7i0xw91f}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/model.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "d8dkmfgan7",
+      "Integrity": "/XEUYYJu9j86wOXzB/uJ9KbQ8hpA2JDFT5qq/KwG4qo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/model.html"
+    },
+    {
+      "Identity": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/t7pjph7fyv-icp5p9wx3p.gz",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "svg_icons/Folder Open#[.{fingerprint=icp5p9wx3p}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/Folder Open.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ivq6hj40fx",
+      "Integrity": "chUOPoFVXO/EMnyeTxMReHLQV7vx0bltTzGhxU6a8mU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/Folder Open.svg"
+    },
+    {
+      "Identity": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/vf6l1pyunz-38ta17l6jz.gz",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "login#[.{fingerprint=38ta17l6jz}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/login.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "7z9wy1xj9r",
+      "Integrity": "g9AdKtMmAB0nTyZ9B29FLbnYZbwTWK+9rcCCz8sIMn8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/login.html"
+    },
+    {
+      "Identity": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/graph.html",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "graph#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ehma6wei40",
+      "Integrity": "rsmi3SkCEbmyoDPWo3LX9hE9UwEd9352mXu8A04dJnE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/graph.html"
+    },
+    {
+      "Identity": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/index.html",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "toij4vfgzn",
+      "Integrity": "XTVTwJUiRxY6LwHNK0PDihXFmlBp6WR4wtYSObIsUvM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/login.html",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "login#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "38ta17l6jz",
+      "Integrity": "jWAz7aXOFTqIWkQzd8HF+KRm/NBnXcXPdABD8sk+sbg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/login.html"
+    },
+    {
+      "Identity": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/model.html",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "model#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zn7i0xw91f",
+      "Integrity": "T1vLI4/C65FoHVhrKKvM9ttkx55Ifj59aQRHAs2JpwI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/model.html"
+    },
+    {
+      "Identity": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/register.html",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "register#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6zhuahcjs1",
+      "Integrity": "gmT+yw1y4IwWm17n3W7LhBDZJkT+UXu4OqJa/9JtHms=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/register.html"
+    },
+    {
+      "Identity": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/Arrow Down Square.svg",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "svg_icons/Arrow Down Square#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ekwr936y3m",
+      "Integrity": "Yq17c2EzCwb5BFvxb8y6uK2mUFnBIXV1OlLbHlkWTsI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/svg_icons/Arrow Down Square.svg"
+    },
+    {
+      "Identity": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/Arrow Up Square.svg",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "svg_icons/Arrow Up Square#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k4wf9ph5bb",
+      "Integrity": "ZE163DNcjiI0jyCO+hqjKqX3egQ7vKJyF2EZdRfDNVc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/svg_icons/Arrow Up Square.svg"
+    },
+    {
+      "Identity": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/arrowTriangleDown.svg",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "svg_icons/arrowTriangleDown#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rc81nee2my",
+      "Integrity": "dVCvY67vpeT1dtWSgSQSm4E8K5S1yIYfGY5rrzMSGP0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/svg_icons/arrowTriangleDown.svg"
+    },
+    {
+      "Identity": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/arrowTriangleUp.svg",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "svg_icons/arrowTriangleUp#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "735b6sl0yx",
+      "Integrity": "g/Q9qV6JSO8S0A6tnFeDbBGcD0E/eDykrB5cKdOogKM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/svg_icons/arrowTriangleUp.svg"
+    },
+    {
+      "Identity": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/File.svg",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "svg_icons/File#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ijrphh6vpg",
+      "Integrity": "rgxYu1/VYYdGm5OH0AiIs/JqQjRbQGfjeVlFCeKOPwk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/svg_icons/File.svg"
+    },
+    {
+      "Identity": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/Folder Open.svg",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "svg_icons/Folder Open#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "icp5p9wx3p",
+      "Integrity": "ksxjE4GaXYdKWlpacaRTg0DTZ03uGFj5D43wVU5fFe8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/svg_icons/Folder Open.svg"
+    },
+    {
+      "Identity": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/pic_build.svg",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "svg_icons/pic_build#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yk2yrz5ykn",
+      "Integrity": "boe/aF/EC7e1WTiyYtQrOefzB3flCn/U6+N042GpPIE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/svg_icons/pic_build.svg"
+    },
+    {
+      "Identity": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/Rectangle 17.svg",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "svg_icons/Rectangle 17#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "plwb6vgx0y",
+      "Integrity": "M6S09L/o7MC19JOk8J+msoq4oyzhkW/f7OYz2PmclIk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/svg_icons/Rectangle 17.svg"
+    },
+    {
+      "Identity": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/tabler-icon-menu-2.svg",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "svg_icons/tabler-icon-menu-2#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yhpmxr7431",
+      "Integrity": "aljpCaC7GrDsSK2PYFiciWaBq+qO4gnEmFOcn2sm5X4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/svg_icons/tabler-icon-menu-2.svg"
+    },
+    {
+      "Identity": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/Vector.svg",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "svg_icons/Vector#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zaolaoovpt",
+      "Integrity": "S1ifcbolEiU5khIlJL1bvT/gFE1Nckt/sYYNt7+gTxk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/svg_icons/Vector.svg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "graph.ehma6wei40.html",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/lusaequn88-ehma6wei40.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000115300357"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8672"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rfe5o7WX+WkMA9+19zN/TjR+FX+RV1h95Uu2qbzcQWU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 12:43:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"rsmi3SkCEbmyoDPWo3LX9hE9UwEd9352mXu8A04dJnE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ehma6wei40"
+        },
+        {
+          "Name": "label",
+          "Value": "graph.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rsmi3SkCEbmyoDPWo3LX9hE9UwEd9352mXu8A04dJnE="
+        }
+      ]
+    },
+    {
+      "Route": "graph.ehma6wei40.html",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/graph.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42609"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rsmi3SkCEbmyoDPWo3LX9hE9UwEd9352mXu8A04dJnE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 12:43:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ehma6wei40"
+        },
+        {
+          "Name": "label",
+          "Value": "graph.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rsmi3SkCEbmyoDPWo3LX9hE9UwEd9352mXu8A04dJnE="
+        }
+      ]
+    },
+    {
+      "Route": "graph.ehma6wei40.html.gz",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/lusaequn88-ehma6wei40.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8672"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rfe5o7WX+WkMA9+19zN/TjR+FX+RV1h95Uu2qbzcQWU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 12:43:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ehma6wei40"
+        },
+        {
+          "Name": "label",
+          "Value": "graph.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Rfe5o7WX+WkMA9+19zN/TjR+FX+RV1h95Uu2qbzcQWU="
+        }
+      ]
+    },
+    {
+      "Route": "graph.html",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/lusaequn88-ehma6wei40.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000115300357"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8672"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rfe5o7WX+WkMA9+19zN/TjR+FX+RV1h95Uu2qbzcQWU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 12:43:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"rsmi3SkCEbmyoDPWo3LX9hE9UwEd9352mXu8A04dJnE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rsmi3SkCEbmyoDPWo3LX9hE9UwEd9352mXu8A04dJnE="
+        }
+      ]
+    },
+    {
+      "Route": "graph.html",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/graph.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42609"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rsmi3SkCEbmyoDPWo3LX9hE9UwEd9352mXu8A04dJnE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 12:43:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rsmi3SkCEbmyoDPWo3LX9hE9UwEd9352mXu8A04dJnE="
+        }
+      ]
+    },
+    {
+      "Route": "graph.html.gz",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/lusaequn88-ehma6wei40.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8672"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Rfe5o7WX+WkMA9+19zN/TjR+FX+RV1h95Uu2qbzcQWU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 12:43:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Rfe5o7WX+WkMA9+19zN/TjR+FX+RV1h95Uu2qbzcQWU="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/qzjphe11ql-toij4vfgzn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000354861604"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2817"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ujEG5KpGGpdVGnattkAVKiozN7TuuRd1NisY9Vi1Wao=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 10:53:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"XTVTwJUiRxY6LwHNK0PDihXFmlBp6WR4wtYSObIsUvM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XTVTwJUiRxY6LwHNK0PDihXFmlBp6WR4wtYSObIsUvM="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11197"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XTVTwJUiRxY6LwHNK0PDihXFmlBp6WR4wtYSObIsUvM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 10:53:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XTVTwJUiRxY6LwHNK0PDihXFmlBp6WR4wtYSObIsUvM="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/qzjphe11ql-toij4vfgzn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2817"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ujEG5KpGGpdVGnattkAVKiozN7TuuRd1NisY9Vi1Wao=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 10:53:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ujEG5KpGGpdVGnattkAVKiozN7TuuRd1NisY9Vi1Wao="
+        }
+      ]
+    },
+    {
+      "Route": "index.toij4vfgzn.html",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/qzjphe11ql-toij4vfgzn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000354861604"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2817"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ujEG5KpGGpdVGnattkAVKiozN7TuuRd1NisY9Vi1Wao=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 10:53:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"XTVTwJUiRxY6LwHNK0PDihXFmlBp6WR4wtYSObIsUvM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "toij4vfgzn"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XTVTwJUiRxY6LwHNK0PDihXFmlBp6WR4wtYSObIsUvM="
+        }
+      ]
+    },
+    {
+      "Route": "index.toij4vfgzn.html",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11197"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XTVTwJUiRxY6LwHNK0PDihXFmlBp6WR4wtYSObIsUvM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 10:53:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "toij4vfgzn"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XTVTwJUiRxY6LwHNK0PDihXFmlBp6WR4wtYSObIsUvM="
+        }
+      ]
+    },
+    {
+      "Route": "index.toij4vfgzn.html.gz",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/qzjphe11ql-toij4vfgzn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2817"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ujEG5KpGGpdVGnattkAVKiozN7TuuRd1NisY9Vi1Wao=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 10:53:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "toij4vfgzn"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ujEG5KpGGpdVGnattkAVKiozN7TuuRd1NisY9Vi1Wao="
+        }
+      ]
+    },
+    {
+      "Route": "login.38ta17l6jz.html",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/vf6l1pyunz-38ta17l6jz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000497265042"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2010"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g9AdKtMmAB0nTyZ9B29FLbnYZbwTWK+9rcCCz8sIMn8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 11:44:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"jWAz7aXOFTqIWkQzd8HF+KRm/NBnXcXPdABD8sk+sbg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "38ta17l6jz"
+        },
+        {
+          "Name": "label",
+          "Value": "login.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jWAz7aXOFTqIWkQzd8HF+KRm/NBnXcXPdABD8sk+sbg="
+        }
+      ]
+    },
+    {
+      "Route": "login.38ta17l6jz.html",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5280"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jWAz7aXOFTqIWkQzd8HF+KRm/NBnXcXPdABD8sk+sbg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 11:44:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "38ta17l6jz"
+        },
+        {
+          "Name": "label",
+          "Value": "login.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jWAz7aXOFTqIWkQzd8HF+KRm/NBnXcXPdABD8sk+sbg="
+        }
+      ]
+    },
+    {
+      "Route": "login.38ta17l6jz.html.gz",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/vf6l1pyunz-38ta17l6jz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g9AdKtMmAB0nTyZ9B29FLbnYZbwTWK+9rcCCz8sIMn8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 11:44:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "38ta17l6jz"
+        },
+        {
+          "Name": "label",
+          "Value": "login.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-g9AdKtMmAB0nTyZ9B29FLbnYZbwTWK+9rcCCz8sIMn8="
+        }
+      ]
+    },
+    {
+      "Route": "login.html",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/vf6l1pyunz-38ta17l6jz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000497265042"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2010"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g9AdKtMmAB0nTyZ9B29FLbnYZbwTWK+9rcCCz8sIMn8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 11:44:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"jWAz7aXOFTqIWkQzd8HF+KRm/NBnXcXPdABD8sk+sbg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jWAz7aXOFTqIWkQzd8HF+KRm/NBnXcXPdABD8sk+sbg="
+        }
+      ]
+    },
+    {
+      "Route": "login.html",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5280"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jWAz7aXOFTqIWkQzd8HF+KRm/NBnXcXPdABD8sk+sbg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 11:44:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jWAz7aXOFTqIWkQzd8HF+KRm/NBnXcXPdABD8sk+sbg="
+        }
+      ]
+    },
+    {
+      "Route": "login.html.gz",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/vf6l1pyunz-38ta17l6jz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g9AdKtMmAB0nTyZ9B29FLbnYZbwTWK+9rcCCz8sIMn8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 11:44:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-g9AdKtMmAB0nTyZ9B29FLbnYZbwTWK+9rcCCz8sIMn8="
+        }
+      ]
+    },
+    {
+      "Route": "model.html",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/rk7f1fjhxp-zn7i0xw91f.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000846023689"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1181"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/XEUYYJu9j86wOXzB/uJ9KbQ8hpA2JDFT5qq/KwG4qo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 12:41:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"T1vLI4/C65FoHVhrKKvM9ttkx55Ifj59aQRHAs2JpwI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-T1vLI4/C65FoHVhrKKvM9ttkx55Ifj59aQRHAs2JpwI="
+        }
+      ]
+    },
+    {
+      "Route": "model.html",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/model.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4525"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T1vLI4/C65FoHVhrKKvM9ttkx55Ifj59aQRHAs2JpwI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 12:41:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-T1vLI4/C65FoHVhrKKvM9ttkx55Ifj59aQRHAs2JpwI="
+        }
+      ]
+    },
+    {
+      "Route": "model.html.gz",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/rk7f1fjhxp-zn7i0xw91f.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1181"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/XEUYYJu9j86wOXzB/uJ9KbQ8hpA2JDFT5qq/KwG4qo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 12:41:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/XEUYYJu9j86wOXzB/uJ9KbQ8hpA2JDFT5qq/KwG4qo="
+        }
+      ]
+    },
+    {
+      "Route": "model.zn7i0xw91f.html",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/rk7f1fjhxp-zn7i0xw91f.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000846023689"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1181"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/XEUYYJu9j86wOXzB/uJ9KbQ8hpA2JDFT5qq/KwG4qo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 12:41:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"T1vLI4/C65FoHVhrKKvM9ttkx55Ifj59aQRHAs2JpwI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zn7i0xw91f"
+        },
+        {
+          "Name": "label",
+          "Value": "model.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-T1vLI4/C65FoHVhrKKvM9ttkx55Ifj59aQRHAs2JpwI="
+        }
+      ]
+    },
+    {
+      "Route": "model.zn7i0xw91f.html",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/model.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4525"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T1vLI4/C65FoHVhrKKvM9ttkx55Ifj59aQRHAs2JpwI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 12:41:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zn7i0xw91f"
+        },
+        {
+          "Name": "label",
+          "Value": "model.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-T1vLI4/C65FoHVhrKKvM9ttkx55Ifj59aQRHAs2JpwI="
+        }
+      ]
+    },
+    {
+      "Route": "model.zn7i0xw91f.html.gz",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/rk7f1fjhxp-zn7i0xw91f.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1181"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/XEUYYJu9j86wOXzB/uJ9KbQ8hpA2JDFT5qq/KwG4qo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 12:41:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zn7i0xw91f"
+        },
+        {
+          "Name": "label",
+          "Value": "model.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/XEUYYJu9j86wOXzB/uJ9KbQ8hpA2JDFT5qq/KwG4qo="
+        }
+      ]
+    },
+    {
+      "Route": "register.6zhuahcjs1.html",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/dfmn4gqljx-6zhuahcjs1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001137656428"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "878"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KL2+hdG+ZUwIyppmDRUR8hP2uzkDyO1PXheX0m7ekog=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 11:30:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gmT+yw1y4IwWm17n3W7LhBDZJkT+UXu4OqJa/9JtHms=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6zhuahcjs1"
+        },
+        {
+          "Name": "label",
+          "Value": "register.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gmT+yw1y4IwWm17n3W7LhBDZJkT+UXu4OqJa/9JtHms="
+        }
+      ]
+    },
+    {
+      "Route": "register.6zhuahcjs1.html",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/register.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2123"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gmT+yw1y4IwWm17n3W7LhBDZJkT+UXu4OqJa/9JtHms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 11:30:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6zhuahcjs1"
+        },
+        {
+          "Name": "label",
+          "Value": "register.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gmT+yw1y4IwWm17n3W7LhBDZJkT+UXu4OqJa/9JtHms="
+        }
+      ]
+    },
+    {
+      "Route": "register.6zhuahcjs1.html.gz",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/dfmn4gqljx-6zhuahcjs1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "878"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KL2+hdG+ZUwIyppmDRUR8hP2uzkDyO1PXheX0m7ekog=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 11:30:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6zhuahcjs1"
+        },
+        {
+          "Name": "label",
+          "Value": "register.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KL2+hdG+ZUwIyppmDRUR8hP2uzkDyO1PXheX0m7ekog="
+        }
+      ]
+    },
+    {
+      "Route": "register.html",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/dfmn4gqljx-6zhuahcjs1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001137656428"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "878"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KL2+hdG+ZUwIyppmDRUR8hP2uzkDyO1PXheX0m7ekog=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 11:30:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gmT+yw1y4IwWm17n3W7LhBDZJkT+UXu4OqJa/9JtHms=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gmT+yw1y4IwWm17n3W7LhBDZJkT+UXu4OqJa/9JtHms="
+        }
+      ]
+    },
+    {
+      "Route": "register.html",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/register.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2123"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gmT+yw1y4IwWm17n3W7LhBDZJkT+UXu4OqJa/9JtHms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 11:30:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gmT+yw1y4IwWm17n3W7LhBDZJkT+UXu4OqJa/9JtHms="
+        }
+      ]
+    },
+    {
+      "Route": "register.html.gz",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/dfmn4gqljx-6zhuahcjs1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "878"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KL2+hdG+ZUwIyppmDRUR8hP2uzkDyO1PXheX0m7ekog=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 11:30:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KL2+hdG+ZUwIyppmDRUR8hP2uzkDyO1PXheX0m7ekog="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/Arrow Down Square.ekwr936y3m.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/5ojllldle9-ekwr936y3m.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001242236025"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "804"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UmQJEHvjKGJwobIqAqsTe7viE3+C7UhLTeNkmEpf7TU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 11:05:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Yq17c2EzCwb5BFvxb8y6uK2mUFnBIXV1OlLbHlkWTsI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ekwr936y3m"
+        },
+        {
+          "Name": "label",
+          "Value": "svg_icons/Arrow Down Square.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yq17c2EzCwb5BFvxb8y6uK2mUFnBIXV1OlLbHlkWTsI="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/Arrow Down Square.ekwr936y3m.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/Arrow Down Square.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1906"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Yq17c2EzCwb5BFvxb8y6uK2mUFnBIXV1OlLbHlkWTsI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 11:05:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ekwr936y3m"
+        },
+        {
+          "Name": "label",
+          "Value": "svg_icons/Arrow Down Square.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yq17c2EzCwb5BFvxb8y6uK2mUFnBIXV1OlLbHlkWTsI="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/Arrow Down Square.ekwr936y3m.svg.gz",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/5ojllldle9-ekwr936y3m.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "804"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UmQJEHvjKGJwobIqAqsTe7viE3+C7UhLTeNkmEpf7TU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 11:05:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ekwr936y3m"
+        },
+        {
+          "Name": "label",
+          "Value": "svg_icons/Arrow Down Square.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UmQJEHvjKGJwobIqAqsTe7viE3+C7UhLTeNkmEpf7TU="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/Arrow Down Square.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/5ojllldle9-ekwr936y3m.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001242236025"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "804"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UmQJEHvjKGJwobIqAqsTe7viE3+C7UhLTeNkmEpf7TU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 11:05:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Yq17c2EzCwb5BFvxb8y6uK2mUFnBIXV1OlLbHlkWTsI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yq17c2EzCwb5BFvxb8y6uK2mUFnBIXV1OlLbHlkWTsI="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/Arrow Down Square.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/Arrow Down Square.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1906"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Yq17c2EzCwb5BFvxb8y6uK2mUFnBIXV1OlLbHlkWTsI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 11:05:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yq17c2EzCwb5BFvxb8y6uK2mUFnBIXV1OlLbHlkWTsI="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/Arrow Down Square.svg.gz",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/5ojllldle9-ekwr936y3m.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "804"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UmQJEHvjKGJwobIqAqsTe7viE3+C7UhLTeNkmEpf7TU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 11:05:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UmQJEHvjKGJwobIqAqsTe7viE3+C7UhLTeNkmEpf7TU="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/Arrow Up Square.k4wf9ph5bb.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/ck9avh7rzw-k4wf9ph5bb.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001243781095"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "803"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DE8XXblwLX8bDJJ1hamWNMr5Vrs5W0xGpZKXXqZAvQA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 11:13:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ZE163DNcjiI0jyCO+hqjKqX3egQ7vKJyF2EZdRfDNVc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k4wf9ph5bb"
+        },
+        {
+          "Name": "label",
+          "Value": "svg_icons/Arrow Up Square.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZE163DNcjiI0jyCO+hqjKqX3egQ7vKJyF2EZdRfDNVc="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/Arrow Up Square.k4wf9ph5bb.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/Arrow Up Square.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1909"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZE163DNcjiI0jyCO+hqjKqX3egQ7vKJyF2EZdRfDNVc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 11:13:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k4wf9ph5bb"
+        },
+        {
+          "Name": "label",
+          "Value": "svg_icons/Arrow Up Square.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZE163DNcjiI0jyCO+hqjKqX3egQ7vKJyF2EZdRfDNVc="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/Arrow Up Square.k4wf9ph5bb.svg.gz",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/ck9avh7rzw-k4wf9ph5bb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "803"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DE8XXblwLX8bDJJ1hamWNMr5Vrs5W0xGpZKXXqZAvQA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 11:13:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k4wf9ph5bb"
+        },
+        {
+          "Name": "label",
+          "Value": "svg_icons/Arrow Up Square.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DE8XXblwLX8bDJJ1hamWNMr5Vrs5W0xGpZKXXqZAvQA="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/Arrow Up Square.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/ck9avh7rzw-k4wf9ph5bb.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001243781095"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "803"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DE8XXblwLX8bDJJ1hamWNMr5Vrs5W0xGpZKXXqZAvQA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 11:13:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ZE163DNcjiI0jyCO+hqjKqX3egQ7vKJyF2EZdRfDNVc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZE163DNcjiI0jyCO+hqjKqX3egQ7vKJyF2EZdRfDNVc="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/Arrow Up Square.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/Arrow Up Square.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1909"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZE163DNcjiI0jyCO+hqjKqX3egQ7vKJyF2EZdRfDNVc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 11:13:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZE163DNcjiI0jyCO+hqjKqX3egQ7vKJyF2EZdRfDNVc="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/Arrow Up Square.svg.gz",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/ck9avh7rzw-k4wf9ph5bb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "803"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DE8XXblwLX8bDJJ1hamWNMr5Vrs5W0xGpZKXXqZAvQA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 11:13:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DE8XXblwLX8bDJJ1hamWNMr5Vrs5W0xGpZKXXqZAvQA="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/arrowTriangleDown.rc81nee2my.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/rdvhly1u7c-rc81nee2my.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002347417840"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "425"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xFiM+milORht7d0lEoJXd/y8pdJvp/g8TB7hFhdKHls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 10:57:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"dVCvY67vpeT1dtWSgSQSm4E8K5S1yIYfGY5rrzMSGP0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rc81nee2my"
+        },
+        {
+          "Name": "label",
+          "Value": "svg_icons/arrowTriangleDown.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dVCvY67vpeT1dtWSgSQSm4E8K5S1yIYfGY5rrzMSGP0="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/arrowTriangleDown.rc81nee2my.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/arrowTriangleDown.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "716"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dVCvY67vpeT1dtWSgSQSm4E8K5S1yIYfGY5rrzMSGP0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 10:57:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rc81nee2my"
+        },
+        {
+          "Name": "label",
+          "Value": "svg_icons/arrowTriangleDown.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dVCvY67vpeT1dtWSgSQSm4E8K5S1yIYfGY5rrzMSGP0="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/arrowTriangleDown.rc81nee2my.svg.gz",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/rdvhly1u7c-rc81nee2my.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "425"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xFiM+milORht7d0lEoJXd/y8pdJvp/g8TB7hFhdKHls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 10:57:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rc81nee2my"
+        },
+        {
+          "Name": "label",
+          "Value": "svg_icons/arrowTriangleDown.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xFiM+milORht7d0lEoJXd/y8pdJvp/g8TB7hFhdKHls="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/arrowTriangleDown.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/rdvhly1u7c-rc81nee2my.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002347417840"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "425"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xFiM+milORht7d0lEoJXd/y8pdJvp/g8TB7hFhdKHls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 10:57:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"dVCvY67vpeT1dtWSgSQSm4E8K5S1yIYfGY5rrzMSGP0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dVCvY67vpeT1dtWSgSQSm4E8K5S1yIYfGY5rrzMSGP0="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/arrowTriangleDown.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/arrowTriangleDown.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "716"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dVCvY67vpeT1dtWSgSQSm4E8K5S1yIYfGY5rrzMSGP0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 10:57:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dVCvY67vpeT1dtWSgSQSm4E8K5S1yIYfGY5rrzMSGP0="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/arrowTriangleDown.svg.gz",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/rdvhly1u7c-rc81nee2my.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "425"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xFiM+milORht7d0lEoJXd/y8pdJvp/g8TB7hFhdKHls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 10:57:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xFiM+milORht7d0lEoJXd/y8pdJvp/g8TB7hFhdKHls="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/arrowTriangleUp.735b6sl0yx.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/b2kwhlwsro-735b6sl0yx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002493765586"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "400"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AmAN2MuirnUhxtTf92MJJgJGdKY0uECo5QjyxD/VHss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 10:56:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"g/Q9qV6JSO8S0A6tnFeDbBGcD0E/eDykrB5cKdOogKM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "735b6sl0yx"
+        },
+        {
+          "Name": "label",
+          "Value": "svg_icons/arrowTriangleUp.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-g/Q9qV6JSO8S0A6tnFeDbBGcD0E/eDykrB5cKdOogKM="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/arrowTriangleUp.735b6sl0yx.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/arrowTriangleUp.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "690"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g/Q9qV6JSO8S0A6tnFeDbBGcD0E/eDykrB5cKdOogKM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 10:56:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "735b6sl0yx"
+        },
+        {
+          "Name": "label",
+          "Value": "svg_icons/arrowTriangleUp.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-g/Q9qV6JSO8S0A6tnFeDbBGcD0E/eDykrB5cKdOogKM="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/arrowTriangleUp.735b6sl0yx.svg.gz",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/b2kwhlwsro-735b6sl0yx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "400"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AmAN2MuirnUhxtTf92MJJgJGdKY0uECo5QjyxD/VHss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 10:56:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "735b6sl0yx"
+        },
+        {
+          "Name": "label",
+          "Value": "svg_icons/arrowTriangleUp.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AmAN2MuirnUhxtTf92MJJgJGdKY0uECo5QjyxD/VHss="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/arrowTriangleUp.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/b2kwhlwsro-735b6sl0yx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002493765586"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "400"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AmAN2MuirnUhxtTf92MJJgJGdKY0uECo5QjyxD/VHss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 10:56:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"g/Q9qV6JSO8S0A6tnFeDbBGcD0E/eDykrB5cKdOogKM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-g/Q9qV6JSO8S0A6tnFeDbBGcD0E/eDykrB5cKdOogKM="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/arrowTriangleUp.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/arrowTriangleUp.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "690"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g/Q9qV6JSO8S0A6tnFeDbBGcD0E/eDykrB5cKdOogKM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 10:56:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-g/Q9qV6JSO8S0A6tnFeDbBGcD0E/eDykrB5cKdOogKM="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/arrowTriangleUp.svg.gz",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/b2kwhlwsro-735b6sl0yx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "400"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AmAN2MuirnUhxtTf92MJJgJGdKY0uECo5QjyxD/VHss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Nov 2024 10:56:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AmAN2MuirnUhxtTf92MJJgJGdKY0uECo5QjyxD/VHss="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/File.ijrphh6vpg.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/dj2axz96j2-ijrphh6vpg.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003154574132"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "316"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dIJFpmDuQulTCWp2HHEopWGhcoajFOZGNgbtbZ/QB08=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 11:37:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"rgxYu1/VYYdGm5OH0AiIs/JqQjRbQGfjeVlFCeKOPwk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ijrphh6vpg"
+        },
+        {
+          "Name": "label",
+          "Value": "svg_icons/File.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rgxYu1/VYYdGm5OH0AiIs/JqQjRbQGfjeVlFCeKOPwk="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/File.ijrphh6vpg.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/File.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "693"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rgxYu1/VYYdGm5OH0AiIs/JqQjRbQGfjeVlFCeKOPwk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 11:37:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ijrphh6vpg"
+        },
+        {
+          "Name": "label",
+          "Value": "svg_icons/File.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rgxYu1/VYYdGm5OH0AiIs/JqQjRbQGfjeVlFCeKOPwk="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/File.ijrphh6vpg.svg.gz",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/dj2axz96j2-ijrphh6vpg.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "316"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dIJFpmDuQulTCWp2HHEopWGhcoajFOZGNgbtbZ/QB08=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 11:37:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ijrphh6vpg"
+        },
+        {
+          "Name": "label",
+          "Value": "svg_icons/File.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dIJFpmDuQulTCWp2HHEopWGhcoajFOZGNgbtbZ/QB08="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/File.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/dj2axz96j2-ijrphh6vpg.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003154574132"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "316"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dIJFpmDuQulTCWp2HHEopWGhcoajFOZGNgbtbZ/QB08=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 11:37:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"rgxYu1/VYYdGm5OH0AiIs/JqQjRbQGfjeVlFCeKOPwk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rgxYu1/VYYdGm5OH0AiIs/JqQjRbQGfjeVlFCeKOPwk="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/File.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/File.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "693"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rgxYu1/VYYdGm5OH0AiIs/JqQjRbQGfjeVlFCeKOPwk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 11:37:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rgxYu1/VYYdGm5OH0AiIs/JqQjRbQGfjeVlFCeKOPwk="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/File.svg.gz",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/dj2axz96j2-ijrphh6vpg.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "316"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dIJFpmDuQulTCWp2HHEopWGhcoajFOZGNgbtbZ/QB08=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 11:37:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dIJFpmDuQulTCWp2HHEopWGhcoajFOZGNgbtbZ/QB08="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/Folder Open.icp5p9wx3p.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/t7pjph7fyv-icp5p9wx3p.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003558718861"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "280"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"chUOPoFVXO/EMnyeTxMReHLQV7vx0bltTzGhxU6a8mU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 11:36:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ksxjE4GaXYdKWlpacaRTg0DTZ03uGFj5D43wVU5fFe8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "icp5p9wx3p"
+        },
+        {
+          "Name": "label",
+          "Value": "svg_icons/Folder Open.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ksxjE4GaXYdKWlpacaRTg0DTZ03uGFj5D43wVU5fFe8="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/Folder Open.icp5p9wx3p.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/Folder Open.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "523"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ksxjE4GaXYdKWlpacaRTg0DTZ03uGFj5D43wVU5fFe8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 11:36:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "icp5p9wx3p"
+        },
+        {
+          "Name": "label",
+          "Value": "svg_icons/Folder Open.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ksxjE4GaXYdKWlpacaRTg0DTZ03uGFj5D43wVU5fFe8="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/Folder Open.icp5p9wx3p.svg.gz",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/t7pjph7fyv-icp5p9wx3p.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "280"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"chUOPoFVXO/EMnyeTxMReHLQV7vx0bltTzGhxU6a8mU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 11:36:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "icp5p9wx3p"
+        },
+        {
+          "Name": "label",
+          "Value": "svg_icons/Folder Open.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-chUOPoFVXO/EMnyeTxMReHLQV7vx0bltTzGhxU6a8mU="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/Folder Open.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/t7pjph7fyv-icp5p9wx3p.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003558718861"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "280"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"chUOPoFVXO/EMnyeTxMReHLQV7vx0bltTzGhxU6a8mU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 11:36:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ksxjE4GaXYdKWlpacaRTg0DTZ03uGFj5D43wVU5fFe8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ksxjE4GaXYdKWlpacaRTg0DTZ03uGFj5D43wVU5fFe8="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/Folder Open.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/Folder Open.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "523"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ksxjE4GaXYdKWlpacaRTg0DTZ03uGFj5D43wVU5fFe8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 11:36:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ksxjE4GaXYdKWlpacaRTg0DTZ03uGFj5D43wVU5fFe8="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/Folder Open.svg.gz",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/t7pjph7fyv-icp5p9wx3p.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "280"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"chUOPoFVXO/EMnyeTxMReHLQV7vx0bltTzGhxU6a8mU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 11:36:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-chUOPoFVXO/EMnyeTxMReHLQV7vx0bltTzGhxU6a8mU="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/pic_build.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/llqh0zuap8-yk2yrz5ykn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000017437400"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57347"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H6ngtvGtnD5sFtHxKYzHQq+yAmcY95oaJ6GCqJFU+NA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Nov 2024 10:59:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"boe/aF/EC7e1WTiyYtQrOefzB3flCn/U6+N042GpPIE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-boe/aF/EC7e1WTiyYtQrOefzB3flCn/U6+N042GpPIE="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/pic_build.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/pic_build.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79439"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"boe/aF/EC7e1WTiyYtQrOefzB3flCn/U6+N042GpPIE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Nov 2024 10:59:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-boe/aF/EC7e1WTiyYtQrOefzB3flCn/U6+N042GpPIE="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/pic_build.svg.gz",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/llqh0zuap8-yk2yrz5ykn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57347"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H6ngtvGtnD5sFtHxKYzHQq+yAmcY95oaJ6GCqJFU+NA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Nov 2024 10:59:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-H6ngtvGtnD5sFtHxKYzHQq+yAmcY95oaJ6GCqJFU+NA="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/pic_build.yk2yrz5ykn.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/llqh0zuap8-yk2yrz5ykn.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000017437400"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57347"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H6ngtvGtnD5sFtHxKYzHQq+yAmcY95oaJ6GCqJFU+NA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Nov 2024 10:59:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"boe/aF/EC7e1WTiyYtQrOefzB3flCn/U6+N042GpPIE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yk2yrz5ykn"
+        },
+        {
+          "Name": "label",
+          "Value": "svg_icons/pic_build.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-boe/aF/EC7e1WTiyYtQrOefzB3flCn/U6+N042GpPIE="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/pic_build.yk2yrz5ykn.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/pic_build.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79439"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"boe/aF/EC7e1WTiyYtQrOefzB3flCn/U6+N042GpPIE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Nov 2024 10:59:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yk2yrz5ykn"
+        },
+        {
+          "Name": "label",
+          "Value": "svg_icons/pic_build.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-boe/aF/EC7e1WTiyYtQrOefzB3flCn/U6+N042GpPIE="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/pic_build.yk2yrz5ykn.svg.gz",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/llqh0zuap8-yk2yrz5ykn.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57347"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H6ngtvGtnD5sFtHxKYzHQq+yAmcY95oaJ6GCqJFU+NA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Nov 2024 10:59:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yk2yrz5ykn"
+        },
+        {
+          "Name": "label",
+          "Value": "svg_icons/pic_build.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-H6ngtvGtnD5sFtHxKYzHQq+yAmcY95oaJ6GCqJFU+NA="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/Rectangle 17.plwb6vgx0y.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/8yaz9x2l9i-plwb6vgx0y.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.007692307692"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "129"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0LOoWAIwhy5b+KHCoG5ezD3713582EioXHRkoIbhXoY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Nov 2024 11:30:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"M6S09L/o7MC19JOk8J+msoq4oyzhkW/f7OYz2PmclIk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "plwb6vgx0y"
+        },
+        {
+          "Name": "label",
+          "Value": "svg_icons/Rectangle 17.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-M6S09L/o7MC19JOk8J+msoq4oyzhkW/f7OYz2PmclIk="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/Rectangle 17.plwb6vgx0y.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/Rectangle 17.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "149"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M6S09L/o7MC19JOk8J+msoq4oyzhkW/f7OYz2PmclIk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Nov 2024 11:30:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "plwb6vgx0y"
+        },
+        {
+          "Name": "label",
+          "Value": "svg_icons/Rectangle 17.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-M6S09L/o7MC19JOk8J+msoq4oyzhkW/f7OYz2PmclIk="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/Rectangle 17.plwb6vgx0y.svg.gz",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/8yaz9x2l9i-plwb6vgx0y.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "129"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0LOoWAIwhy5b+KHCoG5ezD3713582EioXHRkoIbhXoY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Nov 2024 11:30:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "plwb6vgx0y"
+        },
+        {
+          "Name": "label",
+          "Value": "svg_icons/Rectangle 17.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0LOoWAIwhy5b+KHCoG5ezD3713582EioXHRkoIbhXoY="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/Rectangle 17.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/8yaz9x2l9i-plwb6vgx0y.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.007692307692"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "129"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0LOoWAIwhy5b+KHCoG5ezD3713582EioXHRkoIbhXoY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Nov 2024 11:30:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"M6S09L/o7MC19JOk8J+msoq4oyzhkW/f7OYz2PmclIk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-M6S09L/o7MC19JOk8J+msoq4oyzhkW/f7OYz2PmclIk="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/Rectangle 17.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/Rectangle 17.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "149"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M6S09L/o7MC19JOk8J+msoq4oyzhkW/f7OYz2PmclIk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Nov 2024 11:30:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-M6S09L/o7MC19JOk8J+msoq4oyzhkW/f7OYz2PmclIk="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/Rectangle 17.svg.gz",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/8yaz9x2l9i-plwb6vgx0y.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "129"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0LOoWAIwhy5b+KHCoG5ezD3713582EioXHRkoIbhXoY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Nov 2024 11:30:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0LOoWAIwhy5b+KHCoG5ezD3713582EioXHRkoIbhXoY="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/tabler-icon-menu-2.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/axwc4uylrn-yhpmxr7431.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.005747126437"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "173"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KxpFu+T10ym86fkTnkNVxyHwlKQwqeqFXEQRnM139SQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Nov 2024 11:12:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"aljpCaC7GrDsSK2PYFiciWaBq+qO4gnEmFOcn2sm5X4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aljpCaC7GrDsSK2PYFiciWaBq+qO4gnEmFOcn2sm5X4="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/tabler-icon-menu-2.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/tabler-icon-menu-2.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "218"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aljpCaC7GrDsSK2PYFiciWaBq+qO4gnEmFOcn2sm5X4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Nov 2024 11:12:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aljpCaC7GrDsSK2PYFiciWaBq+qO4gnEmFOcn2sm5X4="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/tabler-icon-menu-2.svg.gz",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/axwc4uylrn-yhpmxr7431.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "173"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KxpFu+T10ym86fkTnkNVxyHwlKQwqeqFXEQRnM139SQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Nov 2024 11:12:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KxpFu+T10ym86fkTnkNVxyHwlKQwqeqFXEQRnM139SQ="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/tabler-icon-menu-2.yhpmxr7431.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/axwc4uylrn-yhpmxr7431.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.005747126437"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "173"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KxpFu+T10ym86fkTnkNVxyHwlKQwqeqFXEQRnM139SQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Nov 2024 11:12:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"aljpCaC7GrDsSK2PYFiciWaBq+qO4gnEmFOcn2sm5X4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yhpmxr7431"
+        },
+        {
+          "Name": "label",
+          "Value": "svg_icons/tabler-icon-menu-2.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aljpCaC7GrDsSK2PYFiciWaBq+qO4gnEmFOcn2sm5X4="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/tabler-icon-menu-2.yhpmxr7431.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/tabler-icon-menu-2.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "218"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aljpCaC7GrDsSK2PYFiciWaBq+qO4gnEmFOcn2sm5X4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Nov 2024 11:12:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yhpmxr7431"
+        },
+        {
+          "Name": "label",
+          "Value": "svg_icons/tabler-icon-menu-2.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aljpCaC7GrDsSK2PYFiciWaBq+qO4gnEmFOcn2sm5X4="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/tabler-icon-menu-2.yhpmxr7431.svg.gz",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/axwc4uylrn-yhpmxr7431.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "173"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KxpFu+T10ym86fkTnkNVxyHwlKQwqeqFXEQRnM139SQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 01 Nov 2024 11:12:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yhpmxr7431"
+        },
+        {
+          "Name": "label",
+          "Value": "svg_icons/tabler-icon-menu-2.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KxpFu+T10ym86fkTnkNVxyHwlKQwqeqFXEQRnM139SQ="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/Vector.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/3tt14gkg9a-zaolaoovpt.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003484320557"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "286"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EyvBhR2UokIkPM/yO2nOgrGrXjD1yplQiiQVZFWWSbw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 11:36:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"S1ifcbolEiU5khIlJL1bvT/gFE1Nckt/sYYNt7+gTxk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S1ifcbolEiU5khIlJL1bvT/gFE1Nckt/sYYNt7+gTxk="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/Vector.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/Vector.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S1ifcbolEiU5khIlJL1bvT/gFE1Nckt/sYYNt7+gTxk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 11:36:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S1ifcbolEiU5khIlJL1bvT/gFE1Nckt/sYYNt7+gTxk="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/Vector.svg.gz",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/3tt14gkg9a-zaolaoovpt.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EyvBhR2UokIkPM/yO2nOgrGrXjD1yplQiiQVZFWWSbw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 11:36:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EyvBhR2UokIkPM/yO2nOgrGrXjD1yplQiiQVZFWWSbw="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/Vector.zaolaoovpt.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/3tt14gkg9a-zaolaoovpt.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003484320557"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "286"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EyvBhR2UokIkPM/yO2nOgrGrXjD1yplQiiQVZFWWSbw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 11:36:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"S1ifcbolEiU5khIlJL1bvT/gFE1Nckt/sYYNt7+gTxk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zaolaoovpt"
+        },
+        {
+          "Name": "label",
+          "Value": "svg_icons/Vector.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S1ifcbolEiU5khIlJL1bvT/gFE1Nckt/sYYNt7+gTxk="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/Vector.zaolaoovpt.svg",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/Vector.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S1ifcbolEiU5khIlJL1bvT/gFE1Nckt/sYYNt7+gTxk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 11:36:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zaolaoovpt"
+        },
+        {
+          "Name": "label",
+          "Value": "svg_icons/Vector.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S1ifcbolEiU5khIlJL1bvT/gFE1Nckt/sYYNt7+gTxk="
+        }
+      ]
+    },
+    {
+      "Route": "svg_icons/Vector.zaolaoovpt.svg.gz",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/3tt14gkg9a-zaolaoovpt.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EyvBhR2UokIkPM/yO2nOgrGrXjD1yplQiiQVZFWWSbw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 05 Nov 2024 11:36:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zaolaoovpt"
+        },
+        {
+          "Name": "label",
+          "Value": "svg_icons/Vector.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EyvBhR2UokIkPM/yO2nOgrGrXjD1yplQiiQVZFWWSbw="
+        }
+      ]
+    }
+  ]
+}
