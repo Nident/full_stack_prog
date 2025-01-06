@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eSy7+ushu/jeAxA/+zNbXM5ZuS0viaqpJoBdEK3Sbsw=",
+  "Hash": "wWGoaeiVjpUxV06Fc6y4qQ1Z9joKteYkXq5W2zqEKKk=",
   "Source": "MyWebApp",
   "BasePath": "_content/MyWebApp",
   "Mode": "Default",
@@ -311,12 +311,12 @@
       "OriginalItemSpec": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/svg_icons/Folder Open.svg"
     },
     {
-      "Identity": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/vf6l1pyunz-38ta17l6jz.gz",
+      "Identity": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/vf6l1pyunz-5bqqlw2f85.gz",
       "SourceId": "MyWebApp",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/MyWebApp",
-      "RelativePath": "login#[.{fingerprint=38ta17l6jz}]?.html.gz",
+      "RelativePath": "login#[.{fingerprint=5bqqlw2f85}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -325,8 +325,8 @@
       "RelatedAsset": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/login.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "7z9wy1xj9r",
-      "Integrity": "g9AdKtMmAB0nTyZ9B29FLbnYZbwTWK+9rcCCz8sIMn8=",
+      "Fingerprint": "w3wpn71xj2",
+      "Integrity": "zLGqgFl9dLYs7tECp8vC//IuB3AL1bO9pWUwy0rZFRo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/login.html"
@@ -388,8 +388,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "38ta17l6jz",
-      "Integrity": "jWAz7aXOFTqIWkQzd8HF+KRm/NBnXcXPdABD8sk+sbg=",
+      "Fingerprint": "5bqqlw2f85",
+      "Integrity": "T2OeWa8QPHyiYkaK9kXba/ZHeT+bCcFxElhZ1w9ukhU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/login.html"
@@ -1245,13 +1245,13 @@
       ]
     },
     {
-      "Route": "login.38ta17l6jz.html",
-      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/vf6l1pyunz-38ta17l6jz.gz",
+      "Route": "login.5bqqlw2f85.html",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/vf6l1pyunz-5bqqlw2f85.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000497265042"
+          "Quality": "0.000495294700"
         }
       ],
       "ResponseHeaders": [
@@ -1261,15 +1261,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2010"
+          "Value": "2018"
         },
         {
           "Name": "ETag",
-          "Value": "\"g9AdKtMmAB0nTyZ9B29FLbnYZbwTWK+9rcCCz8sIMn8=\""
+          "Value": "\"zLGqgFl9dLYs7tECp8vC//IuB3AL1bO9pWUwy0rZFRo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 11:44:58 GMT"
+          "Value": "Mon, 06 Jan 2025 12:10:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1289,13 +1289,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"jWAz7aXOFTqIWkQzd8HF+KRm/NBnXcXPdABD8sk+sbg=\""
+          "Value": "W/\"T2OeWa8QPHyiYkaK9kXba/ZHeT+bCcFxElhZ1w9ukhU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "38ta17l6jz"
+          "Value": "5bqqlw2f85"
         },
         {
           "Name": "label",
@@ -1303,12 +1303,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jWAz7aXOFTqIWkQzd8HF+KRm/NBnXcXPdABD8sk+sbg="
+          "Value": "sha256-T2OeWa8QPHyiYkaK9kXba/ZHeT+bCcFxElhZ1w9ukhU="
         }
       ]
     },
     {
-      "Route": "login.38ta17l6jz.html",
+      "Route": "login.5bqqlw2f85.html",
       "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/wwwroot/login.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1318,7 +1318,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5280"
+          "Value": "5289"
         },
         {
           "Name": "Content-Type",
@@ -1326,11 +1326,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jWAz7aXOFTqIWkQzd8HF+KRm/NBnXcXPdABD8sk+sbg=\""
+          "Value": "\"T2OeWa8QPHyiYkaK9kXba/ZHeT+bCcFxElhZ1w9ukhU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 11:44:58 GMT"
+          "Value": "Mon, 06 Jan 2025 12:10:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1340,7 +1340,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "38ta17l6jz"
+          "Value": "5bqqlw2f85"
         },
         {
           "Name": "label",
@@ -1348,13 +1348,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jWAz7aXOFTqIWkQzd8HF+KRm/NBnXcXPdABD8sk+sbg="
+          "Value": "sha256-T2OeWa8QPHyiYkaK9kXba/ZHeT+bCcFxElhZ1w9ukhU="
         }
       ]
     },
     {
-      "Route": "login.38ta17l6jz.html.gz",
-      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/vf6l1pyunz-38ta17l6jz.gz",
+      "Route": "login.5bqqlw2f85.html.gz",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/vf6l1pyunz-5bqqlw2f85.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1363,7 +1363,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2010"
+          "Value": "2018"
         },
         {
           "Name": "Content-Type",
@@ -1371,11 +1371,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"g9AdKtMmAB0nTyZ9B29FLbnYZbwTWK+9rcCCz8sIMn8=\""
+          "Value": "\"zLGqgFl9dLYs7tECp8vC//IuB3AL1bO9pWUwy0rZFRo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 11:44:58 GMT"
+          "Value": "Mon, 06 Jan 2025 12:10:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1393,7 +1393,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "38ta17l6jz"
+          "Value": "5bqqlw2f85"
         },
         {
           "Name": "label",
@@ -1401,18 +1401,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-g9AdKtMmAB0nTyZ9B29FLbnYZbwTWK+9rcCCz8sIMn8="
+          "Value": "sha256-zLGqgFl9dLYs7tECp8vC//IuB3AL1bO9pWUwy0rZFRo="
         }
       ]
     },
     {
       "Route": "login.html",
-      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/vf6l1pyunz-38ta17l6jz.gz",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/vf6l1pyunz-5bqqlw2f85.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000497265042"
+          "Quality": "0.000495294700"
         }
       ],
       "ResponseHeaders": [
@@ -1422,15 +1422,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2010"
+          "Value": "2018"
         },
         {
           "Name": "ETag",
-          "Value": "\"g9AdKtMmAB0nTyZ9B29FLbnYZbwTWK+9rcCCz8sIMn8=\""
+          "Value": "\"zLGqgFl9dLYs7tECp8vC//IuB3AL1bO9pWUwy0rZFRo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 11:44:58 GMT"
+          "Value": "Mon, 06 Jan 2025 12:10:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1450,13 +1450,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"jWAz7aXOFTqIWkQzd8HF+KRm/NBnXcXPdABD8sk+sbg=\""
+          "Value": "W/\"T2OeWa8QPHyiYkaK9kXba/ZHeT+bCcFxElhZ1w9ukhU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jWAz7aXOFTqIWkQzd8HF+KRm/NBnXcXPdABD8sk+sbg="
+          "Value": "sha256-T2OeWa8QPHyiYkaK9kXba/ZHeT+bCcFxElhZ1w9ukhU="
         }
       ]
     },
@@ -1471,7 +1471,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5280"
+          "Value": "5289"
         },
         {
           "Name": "Content-Type",
@@ -1479,11 +1479,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jWAz7aXOFTqIWkQzd8HF+KRm/NBnXcXPdABD8sk+sbg=\""
+          "Value": "\"T2OeWa8QPHyiYkaK9kXba/ZHeT+bCcFxElhZ1w9ukhU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 11:44:58 GMT"
+          "Value": "Mon, 06 Jan 2025 12:10:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1493,13 +1493,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jWAz7aXOFTqIWkQzd8HF+KRm/NBnXcXPdABD8sk+sbg="
+          "Value": "sha256-T2OeWa8QPHyiYkaK9kXba/ZHeT+bCcFxElhZ1w9ukhU="
         }
       ]
     },
     {
       "Route": "login.html.gz",
-      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/vf6l1pyunz-38ta17l6jz.gz",
+      "AssetFile": "/Users/nident/Desktop/RSREU/Наумов/own project/MyWebApp/obj/Debug/net9.0/compressed/vf6l1pyunz-5bqqlw2f85.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1508,7 +1508,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2010"
+          "Value": "2018"
         },
         {
           "Name": "Content-Type",
@@ -1516,11 +1516,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"g9AdKtMmAB0nTyZ9B29FLbnYZbwTWK+9rcCCz8sIMn8=\""
+          "Value": "\"zLGqgFl9dLYs7tECp8vC//IuB3AL1bO9pWUwy0rZFRo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 11:44:58 GMT"
+          "Value": "Mon, 06 Jan 2025 12:10:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1538,7 +1538,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-g9AdKtMmAB0nTyZ9B29FLbnYZbwTWK+9rcCCz8sIMn8="
+          "Value": "sha256-zLGqgFl9dLYs7tECp8vC//IuB3AL1bO9pWUwy0rZFRo="
         }
       ]
     },
